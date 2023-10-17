@@ -52,14 +52,19 @@ DETECT_THRESH = 0.6
 NUM_OF_SRC_SPECIFIC = 10
 MASK_INCLUDE = [
     "Skin",
+    "Background",
     "R-Eyebrow",
     "L-Eyebrow",
     "L-Eye",
     "R-Eye",
+    "Eye-G",
     "Nose",
-    "Mouth",
-    "L-Lip",
-    "U-Lip"
+    "L-Ear",
+    "R-Ear",
+    "Ear-R",
+    "Neck",
+    "Neck-L",
+    "Hair"
 ]
 MASK_SOFT_KERNEL = 17
 MASK_SOFT_ITERATIONS = 10
